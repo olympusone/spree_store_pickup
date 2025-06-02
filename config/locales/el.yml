@@ -6,7 +6,7 @@ el:
         store_pickup: Παραλαβή από το κατάστημα
   spree:
     store_pickup: Παραλαβή από το κατάστημα
-    store_pickup_method: Αντικαταβολή
+    store_pickup_method: Παραλαβή από το κατάστημα
     storefront:
       checkout:
         store_pickup_method:

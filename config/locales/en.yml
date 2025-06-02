@@ -1,5 +1,5 @@
 ---
-el:
+en:
   activerecord:
     attributes:
       spree/shipping_method:
