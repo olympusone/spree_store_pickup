@@ -1,0 +1,14 @@
+---
+el:
+  activerecord:
+    attributes:
+      spree/shipping_method:
+        store_pickup: Store Pickup
+  spree:
+    store_pickup: Store Pickup
+    store_pickup_method: Store Pickup
+    storefront:
+      checkout:
+        store_pickup_method:
+          title: Store Pickup
+          description: You will pay for your order when you pick it up from the store.

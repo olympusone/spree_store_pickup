@@ -1,0 +1,14 @@
+---
+el:
+  activerecord:
+    attributes:
+      spree/shipping_method:
+        store_pickup: Παραλαβή από το κατάστημα
+  spree:
+    store_pickup: Παραλαβή από το κατάστημα
+    store_pickup_method: Αντικαταβολή
+    storefront:
+      checkout:
+        store_pickup_method:
+          title: Παραλαβή από το κατάστημα
+          description: Θα πληρώσετε την παραγγελία σας κατά την παραλαβή της από το κατάστημα.
