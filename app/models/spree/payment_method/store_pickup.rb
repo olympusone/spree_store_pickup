@@ -8,6 +8,10 @@ module Spree
       Spree.t(:store_pickup_method)
     end
 
+    def payment_icon_name
+      'storecredit'
+    end
+
     def source_required?
       false
     end
