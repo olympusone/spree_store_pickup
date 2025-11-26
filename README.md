@@ -8,7 +8,7 @@ This is a Store Pickup extension for [Spree Commerce](https://spreecommerce.org)
 
 1. Add this extension to your Gemfile:
 
-    ```ruby
+    ```bash
     bundle add spree_store_pickup
     ```
 
