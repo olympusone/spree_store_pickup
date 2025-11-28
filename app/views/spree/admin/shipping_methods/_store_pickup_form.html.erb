@@ -5,10 +5,6 @@
     </h5>
   </div>
   <div class="card-body">
-    <div class="custom-control custom-checkbox">
-      <%= f.check_box :store_pickup, class: 'custom-control-input' %>
-      <%= f.label :store_pickup, class: 'custom-control-label font-weight-semibold' %>
-      <%= f.error_message_on :store_pickup %>
-    </div>
+    <%= f.spree_check_box :store_pickup %>
   </div>
 </div>

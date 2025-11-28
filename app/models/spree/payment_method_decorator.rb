@@ -8,6 +8,6 @@ module Spree
       order.shipping_method&.store_pickup?
     end
   end
-end
 
-Spree::PaymentMethod.prepend Spree::PaymentMethodDecorator
+  PaymentMethod.prepend PaymentMethodDecorator
+end
