@@ -42,6 +42,10 @@ module Spree
       simulated_successful_billing_response
     end
 
+    def void(*)
+      simulated_successful_billing_response
+    end
+
     def credit(*)
       simulated_successful_billing_response
     end
